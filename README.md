@@ -12,9 +12,9 @@ Click on the attached link and press the download button. The file should come i
 
 3. Cleanup the Directories
 When I downloaded the data, I found some duplicates and unwanted folders. Follow all the steps I describe to setup the program on your computer:
-- vavigate to inside the newly unzipped folder
+- Navigate to inside the newly unzipped folder
 - Locate the folder named "plantvillage" inside the newly unzipped folder and move it to where your python/ipynb file is located.
-- The newly unzipped format can be deleted once the "plantvillage" folder is aqquired.
+- The newly unzipped format can be deleted once the "plantvillage" folder is acquired.
 
 4. Extra Note
 Depending on the OS, there is a slight change in the code that needs to be made. If on windows, the code should work as is, but if on MacOs, there is one technicality in the script that must be changed. On line 21 of the first block, locate the statement: 
