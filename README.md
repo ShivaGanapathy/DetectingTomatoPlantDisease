@@ -10,9 +10,12 @@ This step is pretty self explanatory. To install python, go to python.org and na
 2. Download Kaggle Data Set
 Click on the attached link and press the download button. The file should come in .zip format. Make sure to unzip the contents to a new folder
 
-3. Slight Code Change
-Depending on the OS, there is a slight change in the code that needs to be made. If on windows, the code should work as is, but if on MacOs, there is one technicality in the script that must be changed. On line 21 of the first block, locate the statement: 
-label = str(folder_dir).split("\\")[-1]. If you are on MacOs, change the double backslash to a single forward slash.
+3. Cleanup the Directories
+When I downloaded the data, I found some duplicates and unwanted folders. Follow all the steps I describe to setup the program on your computer:
+- Navigate to inside the newly unzipped folder
+- Locate the folder named "plantvillage" inside the newly unzipped folder and move it to where your python/ipynb file is located.
+- The newly unzipped format can be deleted once the "plantvillage" folder is acquired.
 
 4. Extra Note
-When I initially trained this model, I recieved a valdiation accuracy of about 30% with a training accuracy of about 97%. This strongly suggests that there is overfitting in the data. This means further techniques have to be implemented to reduce the overfitting, such as reducing the number of epochs and creating artificial data based off of the existing data using image manipulation.
+Depending on the OS, there is a slight change in the code that needs to be made. If on windows, the code should work as is, but if on MacOs, there is one technicality in the script that must be changed. On line 21 of the first block, locate the statement: 
+label = str(folder_dir).split("\\")[-1]. If you are on MacOs, change the double backslash to a single forward slash.
